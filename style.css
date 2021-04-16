@@ -32,7 +32,6 @@ p {
 
 .navigation-links {
   display: flex;
-  margin-top: 40px;
   justify-content: center;
 }
 
@@ -96,4 +95,39 @@ p {
 .row-image div {
   flex: 1;
   margin: 4px;
+}
+
+.text-title {
+  text-align: left;
+}
+
+@media screen and (max-width: 415px) {
+  .preview-images {
+    display: none;
+  }
+  .applications {
+    text-align: center;
+  }
+  .applications btn {
+    margin-top: 20px;
+  }
+  .text-title {
+    text-align: center;
+    margin-bottom: 2px;
+  }
+  .hi-text {
+    font-size: 24px;
+  }
+  .name-text,
+  .about-me {
+    font-size: 28px;
+  }
+  .presentation-text,
+  .email-link {
+    font-size: 16px;
+  }
+  .navigation-links a {
+    font-size: 12px;
+    padding: 12px;
+  }
 }
